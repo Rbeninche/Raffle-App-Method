@@ -25,7 +25,12 @@ namespace ConsoleUI
         private static Random _rdm = new Random();
 
         //Methods:
-
+        private static string GetUserInput(string message)
+        {
+            Console.WriteLine("Enter a message");
+            string data = Console.ReadLine();
+            return data;
+        }
 
 
 
